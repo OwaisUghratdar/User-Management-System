@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +21,7 @@
     "express-flash-message": "^2.1.0",
     "express-session": "^1.17.3",
     "method-override": "^3.0.0",
-    "mongoose": "^7.0.0"
+    "mongoose": "^7.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.21",
